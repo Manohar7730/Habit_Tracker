@@ -1,4 +1,7 @@
 # Habit_Tracker
+
+https://habit-tracker-cmu5.onrender.com/
+
 1) Started the project with npm init and installed required packages, created required folders, and made the first commit by publishing to GitHub
 2) Connected to server and app was running successfully
 3) Connected to the Database by configuring Mongoose, using MongoDB Atlas cloud
