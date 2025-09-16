@@ -2,7 +2,7 @@
 const express = require('express');
 const expressLayouts = require('express-ejs-layouts');
 const cookieParser = require('cookie-parser');
-const env = require('dotenv').config();
+require('dotenv').config();
 
 // Set the port number
 const port = process.env.PORT || 8000;
