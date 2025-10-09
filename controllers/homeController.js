@@ -25,7 +25,7 @@ module.exports.signUp = (req, res) => {
     if (req.cookies.user_id) {
         return res.redirect('/habit/home');
     }
-    return res.render('Register', { title: 'Register' })
+    return res.render('register', { title: 'Register' })
 }
 
 // Handles user registration
